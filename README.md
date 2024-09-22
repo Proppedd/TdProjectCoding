@@ -1,2 +1,2 @@
 This is all the coding I've done for a tower defense project I made for an assignement :DDDDD
-It is recommened that you read Script.DEFINITIONS.lau before proceeding to the actual scripts themselves for people who don't understand the lua coding language :)
+It is recommened that you read Script.DEFINITIONS.lau before proceeding to the actual scripts themselves for people who don't understand the lua coding language :) and if you'd like you can try out the actual game here: https://www.roblox.com/games/108520533222724/Tower-Defence-Project#!/about   (Yes it's a roblox game ik)
