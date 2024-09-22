@@ -22,7 +22,7 @@ local info = workspace:WaitForChild('Info')
 local towerToSpawn = nil
 local canPlace = false
 local TowerRotation = 0
-local MaxTowers = 10
+local MaxTowers = 25
 local PlacedTowers = 0
 --Above is all the listed variables used for this script(yes I know its a lot but its that I need for the game to run properly lol)
 

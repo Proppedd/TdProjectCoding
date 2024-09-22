@@ -15,7 +15,7 @@ map.Health.Humanoid.HealthChanged:Connect(function()
 end)
 
 --Below is a 'for loop' for the game starting countdown.
-for i=3, 0, -1 do
+for i=20, 0, -1 do
 	info.Wave.Value = 'Game starting in...' .. i
 	task.wait(1)
 end

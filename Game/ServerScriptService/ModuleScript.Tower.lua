@@ -8,7 +8,7 @@ local spawnTowerEvent = events:WaitForChild('SpawnTower')
 local functions = ReplicatedStorage:WaitForChild('Functions')
 local requestTowerFunction = functions:WaitForChild('RequestTower')
 
-local maxTowers = 10
+local maxTowers = 25
 local tower = {}
 
 --The FindNearestTarget(newTower, Range) function sets the targetting for the towers placed
