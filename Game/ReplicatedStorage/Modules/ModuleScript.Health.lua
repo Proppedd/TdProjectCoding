@@ -2,6 +2,7 @@ local Players = game:GetService('Players')
 
 local Health = {}
 
+-- All the below coding || Refer to 'Python Graphics' Booklet: 15. Boundaries: EntireChapter
 function Health.Setup(model, screenGui)
 	local newHealthBar = script.HealthGui:Clone()
 	newHealthBar.Adornee = model:WaitForChild('Head')

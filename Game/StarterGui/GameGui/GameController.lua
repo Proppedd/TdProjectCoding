@@ -48,6 +48,7 @@ SetupGui()
 
 --This function will snap the tower placement system to follow with the cursor
 --So then the tower placeholder will follow where the cursor is located in the screenGui.
+-- || Refer to 'Python Graphics' Booklet: 13. User Controls(Page 3): Task 4-Mouse Clicks
 local function MouseRaycast(blacklist)
 	local mousePosition = UserInputService:GetMouseLocation()
 	local mouseRay = camera:ViewportPointToRay(mousePosition.X, mousePosition.Y)

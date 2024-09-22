@@ -4,6 +4,7 @@ local PhysicsService = game:GetService('PhysicsService')
 local mob = {}
 
 --This function variable will make the enemies walk along the map track.
+--Refer to 'Python Graphics' Booklet: 19. Maze: Task 2-Creating The Maze, Task 2-Creatin The Maze(Cont.)
 function mob.Move(mob, map)
 	local humanoid = mob:WaitForChild('Humanoid')
 	local waypoints = map.Waypoints
